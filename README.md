@@ -22,3 +22,8 @@ The workflow for the above described method are as follows: Go script os/exec py
 5. ### Run Go script
 -  ```go run main.go```
 
+
+***
+
+### Possible improvements
+* Write query results to a json file of some sort instead of spitting it out in terminal
