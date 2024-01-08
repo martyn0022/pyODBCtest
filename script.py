@@ -2,9 +2,9 @@ import iris
 
 def main():
  
-  connection_string = "localhost:1972/SAMPLES"
+  connection_string = "localhost:1972/SAMPLES" #change connection_string details with the correct Host, Port and Namespace
   username = "superuser"
-  password = "sys"
+  password = "SYS"
 
   connection = iris.connect(connection_string, username, password)
   cursor = connection.cursor()
